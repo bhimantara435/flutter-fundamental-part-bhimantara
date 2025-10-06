@@ -4,91 +4,161 @@ A new Flutter project.
 
 Nama : Muhammad Bhimantara Wira Eka Putra
 Kelas : SIB 3C
-Nomer Absen : 25
+Nomor Absen : 25
 Matkul : Pemrograman Mobile
 Jurusan : Teknologi Informasi
 Program Studi : D-IV Sistem Informasi Bisnis
 
-
+---
 
 # Praktikum 1
-berhasil membuat project flutter di vscode
+
+Berhasil membuat project Flutter di VSCode.
+Langkah ini merupakan dasar untuk memulai pengembangan aplikasi Flutter menggunakan struktur proyek bawaan.
+
 ![Praktikum 1 Langkah ke 1-4](image/Screenshot%202025-10-04%20180518.png)
-![Gambar](image/Screenshot%20(267).png)
+![Gambar](image/Screenshot%20\(267\).png)
+
+---
 
 # Praktikum 2
-Menghubungkan perangkat android dan emulator
 
-Nb: dikarenakan saya ada masalah di bagian sdk dan ndk di android studio jadi tampilan nya hanya seperti ini. tidak sama dengan yang di vscode
-![Praktikum 2](image/Screenshot%20(268).png)
+Menghubungkan perangkat Android dan emulator.
 
-jadi saya mencoba untuk menggunakan perangkat fisik di laptop saya
+Namun, terjadi masalah pada SDK dan NDK di Android Studio sehingga tampilan hanya muncul di VSCode dan belum bisa dijalankan di emulator.
+Sebagai alternatif, digunakan perangkat fisik (smartphone) untuk menjalankan aplikasi Flutter.
+
+![Praktikum 2](image/Screenshot%20\(268\).png)
 ![Perangkat fisik](image/Gambar%20WhatsApp%202025-10-06%20pukul%2022.56.37_15e2fd12.jpg)
 ![Perangkat fisik](image/Gambar%20WhatsApp%202025-10-06%20pukul%2022.56.37_8c61babd.jpg)
+![Perangkat fisik](image/Screenshot%20\(275\).png)
 
-tetapi di android studio saya tidak mendeteksi perangkat fisik saya 
-![Perangkat fisik](image/Screenshot%20(275).png)
+---
 
 # Praktikum 3
 
-Buat repository di github dan melakukkan commit
-![Repository](image/Screenshot%20(270).png)
+Membuat repository di GitHub dan melakukan commit project Flutter.
+Tujuannya adalah untuk menyimpan, memantau perubahan, serta memudahkan kolaborasi dalam pengembangan aplikasi.
 
-Commit pertama dan kedua
-![Commit gitnore](image/Screenshot%202025-10-04%20181410.png)
-
+![Repository](image/Screenshot%20\(270\).png)
+![Commit gitignore](image/Screenshot%202025-10-04%20181410.png)
 ![Commit Readme](image/Screenshot%202025-10-04%20181410.png)
 
+---
 
 # Praktikum 4 (Menerapkan Widget Dasar)
-Langkah Ke-1
 
-Membuat folder basic widget di dalam folder lib dan membuat file baru yang bernama text
-![folder basic widget](image/Screenshot%202025-10-06%20232949.png)
+## Langkah 1
 
-isi file text_widget.dart dengan code seperti ini dan mengganti nama
-![Membuat file text_widget dan mengganti nama](image/Screenshot%202025-10-06%20233028.png)
+Membuat folder `basic_widgets` di dalam folder `lib` dan membuat file baru bernama `text_widget.dart`.
+File ini berfungsi menampilkan teks dengan gaya tertentu.
 
-Melakukan import text_widget ke dalam main.dart
-![Import](image/Screenshot%202025-10-06%20234047.png)
+![Folder basic\_widget](image/Screenshot%202025-10-06%20232949.png)
+![Membuat file text\_widget dan mengganti nama](image/Screenshot%202025-10-06%20233028.png)
+![Import text\_widget ke main.dart](image/Screenshot%202025-10-06%20234047.png)
 
-dengan hasil:
-![Hasil](image/Screenshot%20(272).png)
+**Hasil:**
+![Hasil](image/Screenshot%20\(272\).png)
 
-Langkah ke 2
+---
 
-Membuat file image_widgets.dart didalam folder basic_widgets
-![Membuat file image_widget](image/Screenshot%202025-10-06%20234255.png)
+## Langkah 2
 
-isi code image_widgets.dar dengan code seperti ini
-![isi file image_widget](image/Screenshot%202025-10-06%20234431.png)
+Membuat file `image_widget.dart` di dalam folder `basic_widgets`.
+Kemudian menambahkan folder `assets` untuk menyimpan gambar (misalnya logo Polinema) dan menyesuaikan pengaturan pada file `pubspec.yaml`.
 
+![Membuat file image\_widget](image/Screenshot%202025-10-06%20234255.png)
+![Isi file image\_widget](image/Screenshot%202025-10-06%20234431.png)
+![Membuat folder assets](image/Screenshot%202025-10-06%20234639.png)
+![Menyesuaikan pubspec.yaml](image/Screenshot%202025-10-06%20234548.png)
+![Import image\_widget](image/Screenshot%202025-10-06%20235053.png)
 
-membuat folder assets dan tambahkan foto logo polinema
-![buat assets](image/Screenshot%202025-10-06%20234639.png)
+Menjalankan perintah:
 
-melakukan penyesuaian asset pada file pubspec.yaml
-![isi file image_widget](image/Screenshot%202025-10-06%20234548.png)
+```
+flutter pub get
+```
 
-penyesuain import image_widget di main.dart
-![import](image/Screenshot%202025-10-06%20235053.png)
+Tujuannya adalah untuk mengambil semua dependencies dan asset yang dibutuhkan oleh proyek.
 
+**Hasil:**
+![Hasil](image/Screenshot%20\(273\).png)
 
-ketik perintah flutter pub get di terminal dengan tujuan mengambil semua package dependencies (pustaka atau library) yang dibutuhkan oleh proyek Flutter dari internet.
-![perintah](image/Screenshot%202025-10-06%20235240.png)
+---
 
+# Praktikum 5 (Menerapkan Widget Material Design dan iOS Cupertino)
 
-Hasil :
-![hasil](image/Screenshot%20(273).png)
+## Langkah 1: Cupertino Button dan Loading Bar
 
+Membuat file `loading_cupertino.dart` di dalam folder `basic_widgets`.
+File ini menampilkan tombol dan indikator loading khas iOS (Cupertino Style).
 
+![Membuat file](image/Screenshot%202025-10-07%20002328.png)
+![Isi file](image/Screenshot%202025-10-07%20002406.png)
+![Penyesuaian main.dart](image/Screenshot%202025-10-07%20002512.png)
 
+**Hasil:**
+![Hasil](image/Screenshot%202025-10-07%20002637.png)
 
+---
 
+## Langkah 2: Floating Action Button (FAB)
 
+Membuat file `fab_widget.dart` untuk menampilkan tombol melayang yang dapat menambah nilai counter.
 
+![Membuat file](image/Screenshot%202025-10-07%20003212.png)
+![Isi file](image/Screenshot%202025-10-07%20003237.png)
+![Penyesuaian main.dart](image/Screenshot%202025-10-07%20003259.png)
 
+**Hasil:**
+![Hasil](image/Screenshot%202025-10-07%20003318.png)
 
+---
 
+## Langkah 3: Scaffold Widget
 
+Menyesuaikan file `main.dart` dengan widget `Scaffold` untuk mengatur tata letak aplikasi berdasarkan Material Design.
 
+![Penyesuaian](image/Screenshot%202025-10-07%20004341.png)
+
+---
+
+## Langkah 4: Dialog Widget
+
+Menambahkan fitur dialog untuk menampilkan pesan pop-up interaktif pada pengguna.
+
+![Penyesuaian](image/Screenshot%202025-10-07%20004648.png)
+![Penyesuaian](image/Screenshot%202025-10-07%20004706.png)
+
+---
+
+## Langkah 5: Input dan Selection Widget
+
+Menambahkan `TextField` untuk menerima input teks dari pengguna.
+
+![Penyesuaian](image/Screenshot%202025-10-07%20010227.png)
+
+---
+
+## Langkah 6: Date and Time Pickers
+
+Menambahkan fitur pemilihan tanggal menggunakan widget `showDatePicker`.
+Fitur ini memungkinkan pengguna memilih tanggal dari kalender interaktif.
+
+**Sebelum diubah:**
+![Penyesuaian](image/Screenshot%202025-10-07%20010525.png)
+
+**Setelah diubah:**
+![Penyesuaian](image/Screenshot%202025-10-07%20010606.png)
+
+---
+
+# Kesimpulan
+
+Dari serangkaian praktikum di atas, dapat disimpulkan bahwa Flutter menyediakan beragam **widget bawaan** yang memudahkan pengembang dalam membuat antarmuka pengguna.
+Flutter juga mendukung gaya **Material Design (Android)** dan **Cupertino (iOS)**, sehingga aplikasi dapat tampil konsisten di berbagai platform.
+
+Selain itu, integrasi dengan **GitHub** serta penggunaan **VSCode** menjadikan proses pengembangan dan manajemen proyek lebih efisien.
+Dengan memahami widget dasar dan elemen interaktif seperti tombol, input, serta picker, pengembang dapat membangun aplikasi Flutter dengan tampilan menarik dan fungsional.
+
+---
