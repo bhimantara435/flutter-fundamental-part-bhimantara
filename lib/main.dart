@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'basic_widgets/text_widget.dart';
-import 'basic_widgets/image_widget.dart'; // ✅ tambahkan ini
+import 'basic_widgets/image_widget.dart';
 
 void main() {
   runApp(const MyApp());
