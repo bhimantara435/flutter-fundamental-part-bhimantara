@@ -29,6 +29,12 @@ jadi saya mencoba untuk menggunakan perangkat fisik di laptop saya
 tetapi di android studio saya tidak mendeteksi perangkat fisik saya 
 ![Perangkat fisik](image/Screenshot%20(275).png)
 
+# Praktikum 3
+Buat repository di github dan melakukkan commit
+![Repository](image/Screenshot%20(270).png)
+Commit pertama dan kedua
+![Commit gitnore](image/Screenshot%202025-10-04%20181410.png)
+![Commit Readme](image/Screenshot%202025-10-04%20181410.png)
 
 
 
