@@ -166,11 +166,11 @@ Menambahkan fitur pemilihan tanggal menggunakan `showDatePicker`.
 
 ## **Kesimpulan**
 
-Dari seluruh praktikum yang telah dilakukan:
 
-* Mahasiswa memahami cara membuat dan menjalankan proyek Flutter.
-* Dapat menghubungkan perangkat Android (emulator maupun fisik).
-* Dapat menggunakan berbagai jenis **widget dasar**, **widget Material**, serta **widget Cupertino**.
-* Mampu mengimplementasikan elemen UI interaktif seperti **FAB**, **Dialog**, **TextField**, dan **Date Picker**.
+Berdasarkan seluruh rangkaian praktikum yang telah dilakukan, dapat disimpulkan bahwa:
 
-Proyek ini menjadi dasar penting dalam memahami struktur dan komponen utama dalam pengembangan aplikasi mobile menggunakan Flutter.
+1.Flutter merupakan framework yang efisien untuk membangun aplikasi lintas platform (Android & iOS) menggunakan bahasa Dart.
+2.Melalui praktikum ini, mahasiswa telah memahami langkah-langkah dasar dalam pengembangan aplikasi Flutter — mulai dari pembuatan proyek, pengaturan emulator atau perangkat fisik, hingga koneksi dengan GitHub.
+3.Mahasiswa mampu menggunakan berbagai widget dasar dan lanjutan, seperti Text, Image, Scaffold, FloatingActionButton, Dialog, TextField, dan DatePicker.
+4.Pemahaman tentang struktur layout dan komponen Material Design maupun Cupertino berhasil diterapkan, sehingga aplikasi dapat memiliki tampilan dan interaksi yang sesuai standar UI modern.
+5.Praktikum ini menjadi dasar penting sebelum melangkah ke tahap pengembangan aplikasi yang lebih kompleks dengan logika bisnis, state management, dan integrasi backend.
